@@ -74,6 +74,25 @@ footer {
     background: #020617;
     margin-top: 40px;
 }
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 250px;
+    border-radius: 12px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
 </style>
 </head>
 
@@ -141,6 +160,26 @@ footer {
 <footer>
     <p>+18 | Solo para adultos</p>
 </footer>
+<div class="section">
+    <h2>🔥 Preview de la comunidad</h2>
 
+    <div class="gallery">
+        <img src="b.jpg">
+        <img src="b1.jpg">
+        
+    </div>
+</div>
 </body>
 </html>
+<div class="section">
+    <h2>🔥 Preview de la comunidad</h2>
+
+    <div class="gallery">
+        <img src="b.jpg">
+        <img src="b1.jpg">
+    </div>
+
+    <a class="btn" href="https://reddit.com/r/PechosLatinos" target="_blank">
+        🔥 Ver contenido completo
+    </a>
+</div>
